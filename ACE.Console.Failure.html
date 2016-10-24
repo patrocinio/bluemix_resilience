@@ -1040,12 +1040,9 @@ console application, the ACE UI console is not available until the ACE
 application(s) are recovered. Alerts are generated when the ACE applications
 are down. The end user will receive a 404 Not Found Requested route error.</p>
 
-<p class=MsoNormal style="background-color:red;">There is no SLA for this failure, as the recovery time
-depends on the type of error.</p>
+<p class=MsoNormal>If an issue with ACE UI is encountered the team is immediately alerted through the PagerDuty to address the problem.</p>
 
-<p class=MsoNormal  style="background-color:red;">During ACE UI update, the application is completely
-unavailable, as a single instance of the application is deployed, and no A/B or
-Blue/Green deployment is used.</p>
+<p class=MsoNormal>The ACE UI is updated using the blue/green deployment technique, where a new instance of the application is deployed and configured, then the traffic is routed to the new instance, eliminating the downtime. </p>
 
 <h1><span style='font-family:Calibri;color:#0070C0'>Test Case Setup<o:p></o:p></span></h1>
 

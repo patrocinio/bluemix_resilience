@@ -1,7 +1,7 @@
 ---
 applications:
 - buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
-  host: bluemix-resilience
-  name: bluemix-resilience
+  host: resilience
+  name: resilience
   memory: 64M
   stack: cflinuxfs2
